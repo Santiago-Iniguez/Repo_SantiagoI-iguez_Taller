@@ -19,5 +19,12 @@ public class IfSimple {
         }
     }
 }
-    
+/**
+ * run:
+Ingrese su edad: Acceso permitidoBUILD 
+SUCCESSFUL (total time: 0 seconds)
+* run:
+Ingrese su edad: Edad invalida
+BUILD SUCCESSFUL (total time: 0 seconds)
+ */
 

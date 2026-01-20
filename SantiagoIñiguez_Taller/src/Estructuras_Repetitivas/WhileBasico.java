@@ -19,4 +19,9 @@ public class WhileBasico {
         System.out.println("Acceso concedido en " + contador + " intento(s).");    
     }
 }
-
+/**
+ * run:
+Ingrese la contrase�a: utpl
+Acceso concedido en 1 intento(s).
+BUILD SUCCESSFUL (total time: 7 seconds)
+ */
