@@ -1,18 +1,18 @@
 import java.util.Scanner;
 /**
- *Problema: Mostrar un menú:
+* Problema: Mostrar un menú:
 Saludar
 Mostrar fecha (solo texto: Funcionalidad no implementada)
 Salir
 El menú debe repetirse hasta que el usuario elija 0.
- * @author Usuario iTC
+ * @author Santiago Iñiguez
  */
 public class DoWhileBasico {
     public static void main(String[] args) {
         Scanner tcl = new Scanner(System.in);
         int opcion;
         do {
-            System.out.println("\n- MENU PRINCIPAL -");
+            System.out.println("\n--- MENU DE OPCIONES ---");
             System.out.println("1. Saludar");
             System.out.println("2. Mostrar fecha");
             System.out.println("0. Salir");
@@ -20,43 +20,41 @@ public class DoWhileBasico {
             opcion = tcl.nextInt();
             switch (opcion) {
                 case 1:
-                    System.out.println("Hola, Espero que tengas un gran dia.");
+                    System.out.println("Bienvenido al sistema.");
                     break;
                 case 2:
-                    System.out.println("Funcionalidad no implementada");
+                    System.out.println("Funcionalidad no implementada.");
                     break;
                 case 0:
-                    System.out.println("Saliendo del sistema...");
+                    System.out.println("Saliendo del programa...");
                     break;
                 default:
-                    System.out.println("Opción inválida");
+                    System.out.println("Opcion inválida.");
                     break;
             }
         } while (opcion != 0); 
     }
 }
 /**
- * run:
-
-- MENU PRINCIPAL -
+ * --- MENU DE OPCIONES ---
 1. Saludar
 2. Mostrar fecha
 0. Salir
 Seleccione una opcion: 1
-Hola, Espero que tengas un gran dia.
+Bienvenido al sistema.
 
-- MENU PRINCIPAL -
+--- MENU DE OPCIONES ---
 1. Saludar
 2. Mostrar fecha
 0. Salir
 Seleccione una opcion: 2
-Funcionalidad no implementada
+Funcionalidad no implementada.
 
-- MENU PRINCIPAL -
+--- MENU DE OPCIONES ---
 1. Saludar
 2. Mostrar fecha
 0. Salir
 Seleccione una opcion: 0
-Saliendo del sistema...
-BUILD SUCCESSFUL (total time: 16 seconds)
+Saliendo del programa...
+BUILD SUCCESSFUL (total time: 9 seconds)
  */
