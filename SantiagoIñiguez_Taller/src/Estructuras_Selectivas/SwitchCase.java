@@ -1,6 +1,15 @@
 import java.util.Scanner;
-import java.util.Random; // 1. IMPORTAR RANDOM
-
+import java.util.Random; 
+/**
+ * Problema: Construya un menú:
+Sumar
+Reiniciar
+Multiplicador
+Dividir
+Solicite al usuario una opción (1–4) y dos números (doble). Ejecute la operación 
+y muestre el resultado.
+ * @author Santiago Iñiguez
+ */
 public class SwitchCase {
     public static void main(String[] args) {
         Scanner tcl = new Scanner(System.in);

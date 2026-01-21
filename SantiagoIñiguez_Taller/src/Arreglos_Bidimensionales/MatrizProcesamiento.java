@@ -4,7 +4,7 @@ import java.util.Scanner;
  *Problema: Con una matriz f x c:
 Calcular suma total de elementos
 Si la matriz es cuadrada (f==c), calcule la suma de la diagonal principal
- * @author Usuario iTC
+ * @author Santiago Iñiguez
  */
 public class MatrizProcesamiento {
     public static void main(String[] args) {

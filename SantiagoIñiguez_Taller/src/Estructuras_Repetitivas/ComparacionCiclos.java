@@ -5,7 +5,7 @@ mientras
 hacer mientras
 para
 Muestre los tres resultados y verifique que coincidan.
- * @author Usuario iTC
+ * @author Santiago Iñiguez
  */
 public class ComparacionCiclos {
     public static void main(String[] args) {

@@ -4,7 +4,7 @@ import java.util.Scanner;
  *Problema: Con una matriz f x c(cargada por teclado):
 Mostrar la matriz en formato de tabla
 Calcular la suma de cada fila y mostrarla
- * @author Usuario iTC
+ * @author Santiago Iñiguez
  */
 public class MatrizRecorrido {
     public static void main(String[] args) {

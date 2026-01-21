@@ -4,7 +4,7 @@ import java.util.Scanner;
  *Problema: Con un arreglo de Nenteros (cargado por teclado):
 Mostrar todos los valores
 Contar cuantos son pares y cuantos impares
- * @author Usuario iTC
+ * @author Santiago Iñiguez
  */
 public class ArregloRecorrido {
     public static void main(String[] args) {

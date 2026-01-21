@@ -1,8 +1,9 @@
 import java.util.Random;
 import java.util.Scanner;
 /**
- *
- * @author Usuario iTC
+ *Problema: Solicite filas f(1..10) y columnas c(1..10). Cree una matriz f x cde
+ *enteros y llénela por teclado.
+ * @author Santiago Iñiguez
  */
 public class MatrizCarga {
     public static void main(String[] args) {

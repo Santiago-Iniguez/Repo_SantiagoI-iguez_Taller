@@ -1,7 +1,7 @@
 import java.util.Scanner;
 /**
  *Problema: Solicite un número entero ny muestre su tabla del 1 al 12.
- * @author Usuario iTC
+ * @author Santiago Iñiguez
  */
 public class ForBasico {
     public static void main(String[] args) {

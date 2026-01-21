@@ -5,7 +5,7 @@ import java.util.Scanner;
 Alcalde
 Menor
 Promedio (doble)
- * @author Usuario iTC
+ * @author Santiago Iñiguez
  */
 public class ArregloProcesamiento {
     public static void main(String[] args) {

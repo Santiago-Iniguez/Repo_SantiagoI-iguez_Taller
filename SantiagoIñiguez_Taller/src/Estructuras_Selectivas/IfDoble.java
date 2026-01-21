@@ -2,7 +2,7 @@ import java.util.Scanner;
 /**
  *Problema: Ingrese una nota final (0–100).
 Si la nota es >= 70 , muestree Aprobado; caso contrario, Reprobado.
- * @author Usuario iTC
+ * @author Santiago Iñiguez
  */
 public class IfDoble {
     public static void main(String[] args){
